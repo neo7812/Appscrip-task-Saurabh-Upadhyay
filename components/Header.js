@@ -1,13 +1,13 @@
-import React from 'react';
-import styles from '../styles/Header.module.css';
-import LogoIcon from '../components/LogoIcon';
-import Element4Icon from '../components/Element4Icon';
-import SearchNormalIcon from '../components/SearchNormalIcon';
-import HeartIcon from '../components/HeartIcon';
-import ShoppingBagIcon from '../components/ShoppingBagIcon';
-import ProfileIcon from '../components/ProfileIcon';
-import EngIcon from '../components/EngIcon';
-import ArrowLeftIcon from '../components/ArrowLeftIcon';
+import React from "react";
+import styles from "../styles/Header.module.css";
+import LogoIcon from "../components/LogoIcon";
+import Element4Icon from "../components/Element4Icon";
+import SearchNormalIcon from "../components/SearchNormalIcon";
+import HeartIcon from "../components/HeartIcon";
+import ShoppingBagIcon from "../components/ShoppingBagIcon";
+import ProfileIcon from "../components/ProfileIcon";
+import EngIcon from "../components/EngIcon";
+import ArrowLeftIcon from "../components/ArrowLeftIcon";
 
 const Header = () => {
   return (
@@ -35,11 +35,21 @@ const Header = () => {
             <span className={styles.logoText}>LOGO</span>
           </div>
           <nav className={styles.tabs}>
-            <a href="#" className={styles.tab}>SHOP</a>
-            <a href="#" className={styles.tab}>SKILLS</a>
-            <a href="#" className={styles.tab}>STORIES</a>
-            <a href="#" className={styles.tab}>ABOUT</a>
-            <a href="#" className={styles.tab}>CONTACT US</a>
+            <a href="#" className={styles.tab}>
+              SHOP
+            </a>
+            <a href="#" className={styles.tab}>
+              SKILLS
+            </a>
+            <a href="#" className={styles.tab}>
+              STORIES
+            </a>
+            <a href="#" className={styles.tab}>
+              ABOUT
+            </a>
+            <a href="#" className={styles.tab}>
+              CONTACT US
+            </a>
           </nav>
           <div className={styles.icons}>
             <SearchNormalIcon className={styles.searchNormal} />
@@ -56,7 +66,9 @@ const Header = () => {
       <section className={styles.productSection}>
         <h1 className={styles.discoverText}>DISCOVER OUR PRODUCTS</h1>
         <p className={styles.productDescription}>
-          Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.
+          Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus
+          scelerisque. Dolor integer scelerisque nibh amet mi ut elementum
+          dolor.
         </p>
       </section>
     </div>

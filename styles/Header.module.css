@@ -1,10 +1,9 @@
-/* Grey Strip */
 .greyStrip {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 274px; /* Reverted to your provided padding */
+  padding: 8px 274px;
   gap: 10px;
   position: absolute;
   width: 100%;
@@ -14,7 +13,6 @@
   background: #000000;
 }
 
-/* Frame 34, Frame 33, Frame 32 */
 .frame34,
 .frame33,
 .frame32 {
@@ -64,7 +62,6 @@
   flex-grow: 0;
 }
 
-/* Header */
 .header {
   box-sizing: border-box;
   width: 100%;
@@ -75,7 +72,6 @@
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* Header Content */
 .headerContent {
   position: absolute;
   top: 32px;
@@ -88,7 +84,6 @@
   padding: 0 96px;
 }
 
-/* Logo */
 .logo {
   display: flex;
   align-items: center;
@@ -97,7 +92,6 @@
   top: 40px;
 }
 
-/* Logo Text Container */
 .logoTextContainer {
   position: absolute;
   top: 40px;
@@ -117,7 +111,6 @@
   color: #000000;
 }
 
-/* Tabs */
 .tabs {
   display: flex;
   flex-direction: row;
@@ -130,7 +123,7 @@
   top: 140px;
   left: 50%;
   transform: translateX(-50%);
-  white-space: nowrap; /* Ensure no line breaks */
+  white-space: nowrap;
 }
 
 .tab {
@@ -142,10 +135,9 @@
   letter-spacing: 1px;
   color: #252020;
   text-decoration: none;
-  white-space: nowrap; /* Ensure each tab stays on one line */
+  white-space: nowrap;
 }
 
-/* Icons */
 .icons {
   display: flex;
   flex-direction: row;
@@ -183,7 +175,6 @@
   order: 3;
 }
 
-/* Language */
 .language {
   display: flex;
   flex-direction: row;
@@ -223,7 +214,6 @@
   flex-grow: 0;
 }
 
-/* India flag is hidden as per display: none */
 .indiaFlag {
   display: none;
   width: 24px;
@@ -234,7 +224,6 @@
   flex-grow: 0;
 }
 
-/* Product Section */
 .productSection {
   width: 100%;
   padding: 60px 96px;
@@ -266,7 +255,6 @@
   margin: 0 auto;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 1440px) {
   .header {
     width: 100%;

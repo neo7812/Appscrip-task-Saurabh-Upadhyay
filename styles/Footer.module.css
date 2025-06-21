@@ -4,7 +4,7 @@
   max-width: 1600px;
   margin: 0 auto;
   color: #fff;
-  font-family: 'Simplon Norm' ,sans-serif;
+  font-family: "Simplon Norm", sans-serif;
 }
 
 .footerTop {
@@ -46,10 +46,10 @@
   height: 47px;
   left: 0px;
   right: 200px;
-  top: calc(50% - 47px/2 - 0.5px);
-  background: #FFFFFF;
+  top: calc(50% - 47px / 2 - 0.5px);
+  background: #ffffff;
   border: none;
-  font-family: 'Simplon Norm', Arial, sans-serif;
+  font-family: "Simplon Norm", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -60,14 +60,14 @@
 .newsletterForm input::placeholder {
   width: 148px;
   height: 22px;
-  font-family: 'Simplon Norm', Arial, sans-serif;
+  font-family: "Simplon Norm", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   display: flex;
   align-items: center;
-  color: #BFC8CD;
+  color: #bfc8cd;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -87,10 +87,10 @@
   top: 0px;
   background: #000000;
   opacity: 0.3;
-  border: 1.14286px solid #FFFFFF;
+  border: 1.14286px solid #ffffff;
   border-radius: 5px;
   cursor: pointer;
-  font-family: 'Simplon Norm', Arial, sans-serif;
+  font-family: "Simplon Norm", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -98,7 +98,7 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -157,11 +157,10 @@
   left: 0;
   width: 9px;
   height: 9px;
-  background-color: #3c3b6e; /* blue canton */
+  background-color: #3c3b6e;
   border-top-left-radius: 50% 50%;
   border-bottom-right-radius: 20%;
 }
-
 
 .currencyNote {
   font-size: 12px;
@@ -216,7 +215,7 @@
 .socialIcon {
   width: 32px;
   height: 32px;
-  border: 1.2px solid #FFFFFF;
+  border: 1.2px solid #ffffff;
   background-color: #000000;
   border-radius: 50%;
   display: flex;
@@ -225,13 +224,12 @@
   position: relative;
   transition: all 0.3s ease;
   text-decoration: none;
-  
 }
 
 .socialIcon svg {
   width: 20px;
   height: 20px;
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .socialIcon:hover {
@@ -308,22 +306,22 @@
   .footer {
     padding: 40px 20px 20px;
   }
-  
+
   .footerTop {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  
+
   .footerBottom {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  
+
   .newsletterForm {
     flex-direction: column;
     gap: 10px;
   }
-  
+
   .paymentIcons {
     justify-content: center;
   }
